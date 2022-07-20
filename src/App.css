@@ -1,0 +1,14 @@
+.App {
+  width: 1903px;
+  height: 1080px;
+  /* display: flex; */
+  position: relative;
+  background-color: #E5E5E5;
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    width: 480px;
+    height: 100%;
+  }
+}

@@ -1,0 +1,63 @@
+.header-container {
+    width: 100%;
+}
+
+.header {
+    background-color: #134B8A;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.noti-icon {
+    color: #FFF;
+    height: 22.94px;
+    width: 18.82px;
+    margin-left: 88%;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    padding-left: 2em;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+}
+
+.user-name {
+    padding-left: 2em;
+    height: 60px;
+    font-family: Kanit;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-style: Regular;
+    letter-spacing: 0.1px;
+    color: #FFF;
+}
+
+.logo-corpHeader {
+    width: 20%;
+    display: none;
+    margin-left: 0.5em;
+}
+
+@media screen and (max-width: 480px) {
+    .noti-icon {
+        margin-left: 40%;
+    }
+
+    .header {
+        height: 65px;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-corpHeader {
+        display: block;
+        justify-content: center;
+    }
+}

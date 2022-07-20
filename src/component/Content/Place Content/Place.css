@@ -1,0 +1,247 @@
+.place-container {
+    margin-top: 1em;
+    width: 500px;
+    height: 255px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.content-detail {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.top-detail {
+    width: 100%;
+    display: flex;
+    margin-top: 1em;
+}
+
+.detail-place {
+    width: calc(100% - 60px);
+    margin-left: 1em;
+}
+
+.bottom-detailPlace {
+    width: 100%;
+    height: 24px;
+    margin-top: 0.45em;
+    display: flex;
+}
+
+.place-img {
+    width: 60px;
+    height: 60px;
+}
+
+.name-place {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+    letter-spacing: 0.15px;
+
+    /* Meprakun/black-1 */
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.time {
+    margin-left: 0.45em;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+
+    /* identical to box height, or 20px */
+    letter-spacing: 0.15px;
+
+    /* Meprakun/black-1 */
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.time-calendar {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+}
+
+.rating-detail {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rating-circle {
+    width: 11px;
+    height: 11px;
+    background: #134B8A;
+    border-radius: 50%;
+}
+
+.rating {
+    margin-left: 0.5em;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+    /* identical to box height, or 24px */
+    letter-spacing: 0.15px;
+
+    color: #134B8A;
+}
+
+.bottom-img {
+    width: 100%;
+    margin-top: 1em;
+    display: flex;
+}
+
+.img-left {
+    width: 150px;
+    height: 150px;
+}
+
+.img-center {
+    width: 150px;
+    height: 150px;
+}
+
+.img-right {
+    width: 150px;
+    height: 150px;
+}
+
+.mobile-ratingDiv {
+    display: none;
+}
+
+.mobile-rating {
+    display: none;
+}
+
+.bottom-img2{
+    display: none;
+}
+@media screen and (max-width: 480px) {
+    .place-container {
+        width: 100%;
+        height: 391px;
+    }
+
+    .content-detail {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        position: relative;
+    }
+
+    .top-detail {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .place-img {
+        width: 100%;
+        height: 100px;
+        /* display:none; */
+        
+    }
+
+    .name-place {
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        /* identical to box height, or 29px */
+        letter-spacing: 0.15px;
+
+        /* Meprakun/black-1 */
+        color: rgba(0, 0, 0, 0.87);
+    }
+
+    .bottom-detailPlace {
+        width: 100%;
+        height: 24px;
+        margin-top: 0.25em;
+        display: flex;
+    }
+
+    .rating-detail {
+        /* width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center; */
+        display: none;
+    }
+
+    .mobile-ratingDiv {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+    }
+
+    .mobile-rating {
+        width: 77px;
+        height: 35.63px;
+        background: #134B8A;
+        border-radius: 30px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        /* identical to box height, or 162% */
+        letter-spacing: 0.46px;
+        text-transform: uppercase;
+        margin-right: 2em;
+        margin-top: 5.45em;
+    }
+
+    .bottom-content2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .bottom-control2 {
+        width: 40px;
+        width: 40px;
+        display: flex;
+    }
+
+    .bottom-img{
+        display: none;
+    }
+
+    .bottom-img2{
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+
+    .mobile-imgShow{
+        width: 100%;
+        height: 220px;
+        position: relative;
+        display: flex;
+    }
+
+    
+}

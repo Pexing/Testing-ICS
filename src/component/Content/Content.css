@@ -1,0 +1,164 @@
+.content-container {
+    width: 1813px;
+    height: 988px;
+    margin-left: 90px;
+}
+
+.content {
+    width: 90%;
+    margin-top: 2em;
+    margin-left: 5%;
+}
+
+.top-content {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    text-align: center;
+}
+
+.text-title {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 133.4%;
+    color: #000000;
+}
+
+.control {
+    width: 1536.4px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dropdown {
+    width: 185px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #134B8A;
+    border-radius: 50px;
+}
+
+.line-2 {
+    width: 2px;
+    height: 40px;
+    background-color: #134B8A;
+    margin-left: 1em;
+}
+
+.search {
+    margin-left: 1em;
+    width: 400px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #134B8A;
+    border-radius: 50px;
+}
+
+.show-content {
+    width: 100%;
+}
+
+.column-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-content {
+    margin-top: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-control {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-circle {
+    width: 40px;
+    height: 40px;
+    background: #134B8A;
+    border-radius: 50px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+    /* identical to box height, or 24px */
+    letter-spacing: 0.15px;
+
+    /* Meprakun/white-1 */
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty-content {
+    margin-top: 1em;
+    width: 500px;
+    height: 255px;
+    background: #E5E5E5;
+    /* box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25); */
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .content-container {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+
+    .content {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 0.5em;
+    }
+
+    .top-content {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .control {
+        margin-top: 0.5em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .dropdown {
+        width: 100%;
+        height: 42px;
+    }
+
+    .line-2 {
+        display: none;
+    }
+
+    .search {
+        margin-top: 1em;
+        margin-left: 0;
+        width: 100%;
+        height: 42px;
+    }
+
+    .column-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
